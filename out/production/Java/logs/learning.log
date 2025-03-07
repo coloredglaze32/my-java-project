@@ -1,3 +1,6 @@
 2025-02-28 10:33:34.183 [main] INFO  LogBackTest01: - 进入到main程序
 2025-02-28 10:33:34.186 [main] DEBUG LogBackTest01: - 调用show()方法
 2025-02-28 10:33:34.186 [main] TRACE LogBackTest01: - show方法执行！
+2025-02-28 10:33:58.276 [main] INFO  LogBackTest01: - 进入到main程序
+2025-02-28 10:33:58.278 [main] DEBUG LogBackTest01: - 调用show()方法
+2025-02-28 10:33:58.278 [main] TRACE LogBackTest01: - show方法执行！

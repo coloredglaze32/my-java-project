@@ -24,3 +24,4 @@ gir push origin main
 |--------------|---------------------------------------------|--------|
 | 1. Arrays类用法 | [ArraysTest](./base/learn/README.md)        | 经典用法   |
 | 2. Logback   | [Logback](./src/logback_learning/README.md) | 记录日志信息 |
+| 3. Lambda表达式 | [Lambda](./src/lambda_learning/README.md)   | 精简代码   |
