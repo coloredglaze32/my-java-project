@@ -17,7 +17,7 @@ git push -u origin main
 ```text
 git add .
 git commit -m "更新代码"
-gir push origin main
+git push origin main
 ```
 ## 2. Study
 | 学习过程         | 文件地址                                        | 简单描述   |
