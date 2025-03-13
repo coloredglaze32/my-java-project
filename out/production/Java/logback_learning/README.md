@@ -35,7 +35,7 @@ logger.trace("show方法执行！");
 %msg：日志消息，
 %n是换行符
 -->
-<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%-5level]  %c [%thread] : %msg%n</pattern>
+<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%-5level]  %c [%threadTest] : %msg%n</pattern>
 ```
 
 ## 3.日志级别

@@ -9,14 +9,14 @@
         <encoder>
             <!--格式化输出：%d表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度
                 %msg：日志消息，%n是换行符-->
-            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%-5level]  %c [%thread] : %msg%n</pattern>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%-5level]  %c [%threadTest] : %msg%n</pattern>
         </encoder>
     </appender>
 
     <!-- File是输出的方向通向文件的 -->
     <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <encoder>
-            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%threadTest] %-5level %logger{36} - %msg%n</pattern>
             <charset>utf-8</charset>
         </encoder>
         <!--日志输出路径-->
